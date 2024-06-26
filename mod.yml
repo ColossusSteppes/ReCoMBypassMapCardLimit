@@ -1,0 +1,8 @@
+title: "Bypass Map Card Limit"
+author: "KSX (edit by Colossus Steppes)"
+description: "Gives you 99 of Moments Reprieve #1 and #2, bypassing the 99 map card limit."
+assets:
+- name: scripts/Bypass Map Card Limit.lua
+  method: copy
+  source:
+  - name: Bypass Map Card Limit.lua
