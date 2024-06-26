@@ -1,6 +1,6 @@
 LUAGUI_NAME = "Bypass Map Card Limit"
 LUAGUI_AUTH = "ColossusSteppes"
-LUAGUI_DESC = "Gives you 99 of Moment's Reprieve #1 and #2, bypassing the 99 map card limit. [Original 'All Map Cards' mod by KSX]"
+LUAGUI_DESC = "Gives you 99 of Moment's Reprieve #1 and #2, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
 
 IsEpicGLVersion = 0x4E6C80
 IsSteamGLVersion = 0x4E7040
