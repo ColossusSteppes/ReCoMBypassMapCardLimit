@@ -6,7 +6,7 @@ assets:
   method: copy
   source:
   - name: Bypass Map Card Limit (Sora).lua
- - name: scripts/Bypass Map Card Limit (Riku).lua
+- name: scripts/Bypass Map Card Limit (Riku).lua
   method: copy
   source:
   - name: Bypass Map Card Limit (Riku).lua
