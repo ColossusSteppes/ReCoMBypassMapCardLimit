@@ -1,6 +1,6 @@
 LUAGUI_NAME = "Bypass Map Card Limit (Sora)"
 LUAGUI_AUTH = "ColossusSteppes"
-LUAGUI_DESC = "Gives Sora 99 of Moment's Reprieve #1, #2, and #3, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
+LUAGUI_DESC = "Gives Sora 95 of Moment's Reprieve #2, #3, and #4, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
 
 IsEpicGLVersion = 0x616149
 IsSteamGLVersion = 0x6116C1
@@ -43,13 +43,9 @@ Key = ReadLong(0x87A1E8+0x8)+0x2, true
 JournalMapCardFlags = ReadLong(0x87C608)+0x187, true
 
 if ReadByte(IngameCheck) >= 1 then
-WriteByte(MapCards+211, 99, true) -- Moment´s Reprieve #1
-WriteByte(MapCards+212, 99, true) -- Moment´s Reprieve #2
-WriteByte(MapCards+213, 99, true) -- Moment´s Reprieve #3
-
-if ReadByte(JournalMapCardFlags+21, true) <= 1 then -- Moment´s Reprieve
-	WriteByte(JournalMapCardFlags+21, 4, true)
-end
+WriteByte(MapCards+212, 95, true) -- Moment´s Reprieve #2
+WriteByte(MapCards+213, 95, true) -- Moment´s Reprieve #3
+WriteByte(MapCards+214, 95, true) -- Moment´s Reprieve #4
 
 end
 end
@@ -62,13 +58,9 @@ Key = ReadLong(0x87A7E8+0x8)+0x2, true
 JournalMapCardFlags = ReadLong(0x87CC08)+0x187, true
 
 if ReadByte(IngameCheck) >= 1 then
-WriteByte(MapCards+211, 99, true) -- Moment´s Reprieve #1
-WriteByte(MapCards+212, 99, true) -- Moment´s Reprieve #2
-WriteByte(MapCards+213, 99, true) -- Moment´s Reprieve #3
-
-if ReadByte(JournalMapCardFlags+21, true) <= 1 then -- Moment´s Reprieve
-	WriteByte(JournalMapCardFlags+21, 4, true)
-end
+WriteByte(MapCards+212, 95, true) -- Moment´s Reprieve #2
+WriteByte(MapCards+213, 95, true) -- Moment´s Reprieve #3
+WriteByte(MapCards+214, 95, true) -- Moment´s Reprieve #4
 
 end
 end
@@ -81,13 +73,9 @@ Key = ReadLong(0x87A7E8+0x8)+0x2, true
 JournalMapCardFlags = ReadLong(0x87CC08)+0x187, true
 
 if ReadByte(IngameCheck) >= 1 then
-WriteByte(MapCards+211, 99, true) -- Moment´s Reprieve #1
-WriteByte(MapCards+212, 99, true) -- Moment´s Reprieve #2
-WriteByte(MapCards+213, 99, true) -- Moment´s Reprieve #3
-
-if ReadByte(JournalMapCardFlags+21, true) <= 1 then -- Moment´s Reprieve
-	WriteByte(JournalMapCardFlags+21, 4, true)
-end
+WriteByte(MapCards+212, 95, true) -- Moment´s Reprieve #2
+WriteByte(MapCards+213, 95, true) -- Moment´s Reprieve #3
+WriteByte(MapCards+214, 95, true) -- Moment´s Reprieve #4
 
 end
 end
