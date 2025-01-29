@@ -1,8 +1,12 @@
 title: "Bypass Map Card Limit"
-author: "KSX (edit by Colossus Steppes)"
-description: "Gives you 99 of Moments Reprieve #1 and #2, bypassing the 99 map card limit."
+author: "ColossusSteppes (Original by KSX)"
+description: "Gives Sora and Riku 99 of Moment's Reprieve #1, #2, and #3, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
 assets:
-- name: scripts/Bypass Map Card Limit.lua
+- name: scripts/Bypass Map Card Limit (Sora).lua
   method: copy
   source:
-  - name: Bypass Map Card Limit.lua
+  - name: Bypass Map Card Limit (Sora).lua
+ - name: scripts/Bypass Map Card Limit (Riku).lua
+  method: copy
+  source:
+  - name: Bypass Map Card Limit (Riku).lua
