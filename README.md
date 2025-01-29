@@ -1,3 +1,3 @@
-Gives you 99 of Moments Reprieve #1 and #2, bypassing the 99 map card limit.
+Gives Sora and Riku 99 of Moment's Reprieve #1, #2, and #3, bypassing the 99 map card limit.
 
-Based on KSX's "All Map Cards" scripts.
+Original 'All Map Cards' mod by KSX.
