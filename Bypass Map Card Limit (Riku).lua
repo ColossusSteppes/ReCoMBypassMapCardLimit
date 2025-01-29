@@ -1,6 +1,6 @@
 LUAGUI_NAME = "Bypass Map Card Limit (Riku)"
 LUAGUI_AUTH = "ColossusSteppes"
-LUAGUI_DESC = "Gives Riku  95 of Moment's Reprieve 2, 3, and 4, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
+LUAGUI_DESC = "Gives Riku 95 of Moment's Reprieve 2, 3, and 4, bypassing the 99 map card limit. Original 'All Map Cards' mod by KSX."
 
 IsEpicGLVersion = 0x616149
 IsSteamGLVersion = 0x6116C1
